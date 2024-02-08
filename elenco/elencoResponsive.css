@@ -1,0 +1,147 @@
+@media(max-width: 2560px) {
+
+    html{
+
+      font-size: 120%;
+
+    }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 35vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+
+}
+
+@media(max-width: 1440px) {
+
+    html{
+
+      font-size: 70%;
+
+    }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 35vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+}
+
+@media(max-width: 1024px) {
+
+    html{
+
+        font-size: 45%;
+
+    }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 35vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+}
+
+@media(max-width: 768px) {
+
+    html{
+
+        font-size: 40%;
+
+    }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 35vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+}
+
+@media(max-width: 425px) {
+
+  html{
+
+    font-size: 35%;
+
+  }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 70vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+  section .cards p{
+
+    font-size: 2rem;
+  }
+
+
+}
+
+@media(max-width: 375px) {
+
+  html{
+
+    font-size: 30%;
+
+  }
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 70vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+}
+
+
+@media(max-width: 320px) {
+
+  html{
+
+    font-size: 25%;
+
+  }  
+
+  section{
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 70vw);
+    gap: 5rem;
+    margin: 5rem;
+
+  }
+
+  
+}
